@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 import Navbar from './Navbar';
-import Sidebar from './Sidebar';
+import Header from './Header';
 
 class ProductList extends Component 
 {
@@ -12,14 +12,11 @@ class ProductList extends Component
       
 <div>
   <Navbar />
-  <Sidebar />
-
+  <Header />
 
    {/* MAIN BAR */}
-   <div className="col-sm-9 form-container">    
-        <div className="ads-grid_shop">
-          <div className="shop_inner_inf">
-            <div className="privacy about">
+   <div className="form-container">    
+       <br/>
               <h3>PRODUCT LIST</h3>
               <div className="checkout-right">
                 <h4>Last Update: <span>1 June 2018</span></h4>
@@ -50,7 +47,7 @@ class ProductList extends Component
                       <td className="invert">
                         <div className="clearfix">
                           <button type="submit" className="btn btn-xs btn-info pull-left">Edit</button>
-                          <button type="submit" className="btn btn-xs btn-warning pull right">Delete</button>
+                          <button type="submit" className="btn btn-xs btn-warning pull-right">Delete</button>
                         </div>  
                       </td>
                     </tr>
@@ -64,8 +61,10 @@ class ProductList extends Component
                       <td className="invert">850,000</td>
                       <td className="invert"><Link to="../web/products.html">Crossbody</Link></td>
                       <td className="invert">
-                        <button type="submit" className="btn btn-xs btn-info">Edit</button>
-                        <button type="submit" className="btn btn-xs btn-warning">Delete</button>
+                        <div className="clearfix">
+                          <button type="submit" className="btn btn-xs btn-info pull-left">Edit</button>
+                          <button type="submit" className="btn btn-xs btn-warning pull-right">Delete</button>
+                        </div>
                       </td>
                     </tr>
                     <tr className="rem1">
@@ -78,8 +77,10 @@ class ProductList extends Component
                       <td className="invert" />
                       <td className="invert"><Link to="../web/products.html">Crossbody Bag</Link></td>
                       <td className="invert">
-                        <button type="submit" className="btn btn-xs btn-info">Edit</button>
-                        <button type="submit" className="btn btn-xs btn-warning">Delete</button>
+                      <div className="clearfix">
+                        <button type="submit" className="btn btn-xs btn-info pull-left">Edit</button>
+                        <button type="submit" className="btn btn-xs btn-warning pull-right">Delete</button>
+                      </div>
                       </td>
                     </tr>
                     <tr className="rem1">
@@ -92,8 +93,10 @@ class ProductList extends Component
                       <td className="invert" />
                       <td className="invert">Crossbody Bag</td>
                       <td className="invert">
-                        <button type="submit" className="btn btn-xs btn-info">Edit</button>
-                        <button type="submit" className="btn btn-xs btn-warning">Delete</button>
+                      <div className="clearfix">
+                        <button type="submit" className="btn btn-xs btn-info pull-left">Edit</button>
+                        <button type="submit" className="btn btn-xs btn-warning pull-right">Delete</button>
+                      </div>
                       </td>
                     </tr>
                     <tr className="rem1">
@@ -106,8 +109,10 @@ class ProductList extends Component
                       <td className="invert" />
                       <td className="invert">Crossbody Bag</td>
                       <td className="invert">
-                        <button type="submit" className="btn btn-xs btn-info">Edit</button>
-                        <button type="submit" className="btn btn-xs btn-warning">Delete</button>
+                      <div className="clearfix">
+                        <button type="submit" className="btn btn-xs btn-info pull-left">Edit</button>
+                        <button type="submit" className="btn btn-xs btn-warning pull-right">Delete</button>
+                      </div>
                       </td>
                     </tr>
                     <tr className="rem1">
@@ -120,8 +125,10 @@ class ProductList extends Component
                       <td className="invert" />
                       <td className="invert">Tote Bag</td>
                       <td className="invert">
-                        <button type="submit" className="btn btn-xs btn-info">Edit</button>
-                        <button type="submit" className="btn btn-xs btn-warning">Delete</button>
+                      <div className="clearfix">
+                        <button type="submit" className="btn btn-xs btn-info pull-left">Edit</button>
+                        <button type="submit" className="btn btn-xs btn-warning pull-right">Delete</button>
+                        </div>
                       </td>
                     </tr>
                     <tr className="rem1">
@@ -134,8 +141,10 @@ class ProductList extends Component
                       <td className="invert" />
                       <td className="invert">Tote Bag</td>
                       <td className="invert">
-                        <button type="submit" className="btn btn-xs btn-info">Edit</button>
-                        <button type="submit" className="btn btn-xs btn-warning">Delete</button>
+                      <div className="clearfix">
+                        <button type="submit" className="btn btn-xs btn-info pull-left">Edit</button>
+                        <button type="submit" className="btn btn-xs btn-warning pull-right">Delete</button>
+                        </div>
                       </td>
                     </tr>
                     <tr className="rem1">
@@ -148,8 +157,10 @@ class ProductList extends Component
                       <td className="invert">1,050,000</td>
                       <td className="invert">Tote Bag</td>
                       <td className="invert"> 
-                        <button type="submit" className="btn btn-xs btn-info">Edit</button>
-                        <button type="submit" className="btn btn-xs btn-warning">Delete</button>
+                      <div className="clearfix">
+                        <button type="submit" className="btn btn-xs btn-info pull-left">Edit</button>
+                        <button type="submit" className="btn btn-xs btn-warning pull-right">Delete</button>
+                      </div>
                       </td>
                     </tr>
                     <tr className="rem1">
@@ -162,8 +173,10 @@ class ProductList extends Component
                       <td className="invert">1,050,000</td>
                       <td className="invert">Tote Bag</td>
                       <td className="invert"> 
-                        <button type="submit" className="btn btn-xs btn-info">Edit</button>
-                        <button type="submit" className="btn btn-xs btn-warning">Delete</button>
+                      <div className="clearfix">
+                        <button type="submit" className="btn btn-xs btn-info pull-left">Edit</button>
+                        <button type="submit" className="btn btn-xs btn-warning pull-right">Delete</button>
+                      </div>
                       </td>
                     </tr>
                     <tr className="rem1">
@@ -176,8 +189,10 @@ class ProductList extends Component
                       <td className="invert">1,150,000</td>
                       <td className="invert">Satchel Bag</td>
                       <td className="invert"> 
-                        <button type="submit" className="btn btn-xs btn-info">Edit</button>
-                        <button type="submit" className="btn btn-xs btn-warning">Delete</button>
+                      <div className="clearfix">
+                        <button type="submit" className="btn btn-xs btn-info pull-left">Edit</button>
+                        <button type="submit" className="btn btn-xs btn-warning pull-right">Delete</button>
+                        </div>
                       </td>
                     </tr>
                     <tr className="rem1">
@@ -190,8 +205,10 @@ class ProductList extends Component
                       <td className="invert" />
                       <td className="invert">Satchel Bag</td>
                       <td className="invert"> 
-                        <button type="submit" className="btn btn-xs btn-info">Edit</button>
-                        <button type="submit" className="btn btn-xs btn-warning">Delete</button>
+                      <div className="clearfix">
+                        <button type="submit" className="btn btn-xs btn-info pull-left">Edit</button>
+                        <button type="submit" className="btn btn-xs btn-warning pull-right">Delete</button>
+                      </div>
                       </td>
                     </tr>
                     <tr className="rem1">
@@ -204,8 +221,10 @@ class ProductList extends Component
                       <td className="invert" />
                       <td className="invert">Satchel Bag</td>
                       <td className="invert"> 
-                        <button type="submit" className="btn btn-xs btn-info">Edit</button>
-                        <button type="submit" className="btn btn-xs btn-warning">Delete</button>
+                      <div className="clearfix">
+                        <button type="submit" className="btn btn-xs btn-info pull-left">Edit</button>
+                        <button type="submit" className="btn btn-xs btn-warning pull-right">Delete</button>
+                      </div>
                       </td>
                     </tr>
                     <tr className="rem1">
@@ -218,8 +237,10 @@ class ProductList extends Component
                       <td className="invert" />
                       <td className="invert">Clutch</td>
                       <td className="invert"> 
-                        <button type="submit" className="btn btn-xs btn-info">Edit</button>
-                        <button type="submit" className="btn btn-xs btn-warning">Delete</button>
+                      <div className="clearfix">
+                        <button type="submit" className="btn btn-xs btn-info pull-left">Edit</button>
+                        <button type="submit" className="btn btn-xs btn-warning pull-right">Delete</button>
+                      </div>
                       </td>
                     </tr>
                     <tr className="rem1">
@@ -232,8 +253,10 @@ class ProductList extends Component
                       <td className="invert" />
                       <td className="invert">Clutch</td>
                       <td className="invert"> 
-                        <button type="submit" className="btn btn-xs btn-info">Edit</button>
-                        <button type="submit" className="btn btn-xs btn-warning">Delete</button>
+                      <div className="clearfix">
+                        <button type="submit" className="btn btn-xs btn-info pull-left">Edit</button>
+                        <button type="submit" className="btn btn-xs btn-warning pull-right">Delete</button>
+                      </div>
                       </td>
                     </tr>
                   </tbody>
@@ -243,15 +266,11 @@ class ProductList extends Component
               <div className>
                 <button type="submit" className="btn btn-lg btn-primary">Add New Product</button>
               </div>
+              <br /><br />
             </div>
           </div>
-        </div>
-      </div>
-  
-       
-</div>
-
-);
-}
+        
+    );
+  }
 }
 export default ProductList;

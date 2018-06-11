@@ -1,20 +1,21 @@
+
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 import Navbar from './Navbar';
-import Sidebar from './Sidebar';
+import Header from './Header';
 
 class Invoices extends Component 
 {
     render() 
     {
-        return (
+      return (
       
-<div>
-  <Navbar />
-  <Sidebar />
+      <div>
+        <Navbar />
+        <Header />
 
- <div className="col-sm-9 form-container">    
+ <div className="form-container">    
         <form className="navbar-form navbar-right" action="/action_page.php">
           <div className="input-group">
             <input type="text" className="form-control" placeholder="Search Invoice" name="search" />

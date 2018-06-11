@@ -3,13 +3,11 @@ import { Link } from 'react-router-dom';
 
 class Navbar extends Component 
 {
-    render() 
-    {
-        return (
-            <div>
-
-                 {/* HEADER */}
-      {/* Fixed Top Navigation Bar */}
+  render() 
+  {
+    return (
+      <div>
+       {/* Fixed Top Navigation Bar */}
       <nav className="navbar navbar-inverse navbar-fixed-top">
         <div className="container-fluid">
           <div className="navbar-header">
@@ -92,8 +90,8 @@ class Navbar extends Component
         </div>
       </nav>
       
-            </div>
-    );
-    }
+    </div>
+  );
+  }
 }
 export default Navbar;
