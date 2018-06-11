@@ -12,6 +12,7 @@ import Products from './component/Products';
 import Register from './component/Register';
 import Login from './component/Login';
 import ShoppingCart from './component/ShoppingCart';
+import Checkout from './component/Checkout';
 
 
 class App extends Component {
@@ -29,6 +30,7 @@ class App extends Component {
             <Route path="/transactionhistory" component={TransactionHistory}/>
             <Route path="/products" component={Products}/>
             <Route path="/singleproduct" component={SingleProduct}/>
+            <Route path="/checkout" component={Checkout}/>
        
           </div>
     );
