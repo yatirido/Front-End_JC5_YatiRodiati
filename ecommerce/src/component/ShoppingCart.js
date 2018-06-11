@@ -76,7 +76,7 @@ class ShoppingCart extends Component
               </tr>
               {/* checkout btn */}
               <tr className="checkoutrow">
-                <td colSpan={6} className="checkout"><button id="submitbtn">Checkout Now!</button></td>
+                <td colSpan={6} className="checkout"><Link to = "/checkout"><button id="submitbtn">Checkout Now!</button></Link></td>
               </tr>
             </tbody>
           </table>
